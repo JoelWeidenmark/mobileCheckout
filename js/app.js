@@ -14,7 +14,6 @@ firebase.initializeApp(config);
 this.model = new ShoppingModel();
 var scanElement = document.getElementById("scanProduct.html")
 
-
 // Current user
 var currenUser;
 
@@ -101,7 +100,7 @@ function signUpUser() {
 
 // Runs when app.js start
 function start() {
-
+	
 	// Show only login
 
 	//scanProduct1.style.display = "none";
